@@ -15,11 +15,11 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 
 | Functionality | Status |
 | ---------- | --- |
-| Creates an Employee Table in the Database | :white_check_mark: |
-| Creates new Employee data/row in the Table | :white_check_mark: |
-| Read Employee data/row from the Table | :white_check_mark: |
-| Update Employee data/row in the Table | :white_check_mark: |
-| Delete an Employee data/row from the Table | :white_check_mark: |
+| Creates an Employee Table in the Database | &nbsp; :white_check_mark: |
+| Creates new Employee data/row in the Table | &nbsp; :white_check_mark: |
+| Read Employee data/row from the Table | &nbsp; :white_check_mark: |
+| Update Employee data/row in the Table | &nbsp; :white_check_mark: |
+| Delete an Employee data/row from the Table | &nbsp; :white_check_mark: |
 <br>
 
 ## Dependencies Used
