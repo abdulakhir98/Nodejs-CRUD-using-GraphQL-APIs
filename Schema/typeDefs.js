@@ -37,7 +37,7 @@ const typeDefs = gql`
     type Mutation {
         createEmployee(employeeInput: EmployeeInput): Employee
         deleteEmployee(id: Int!): Boolean
-        editEmployee(editEmployeeInput: EditEmployeeInput): Employee
+        updateEmployee(editEmployeeInput: EditEmployeeInput): Employee
     }
 `;
 

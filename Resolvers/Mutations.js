@@ -37,7 +37,7 @@ module.exports = {
 
         // If a row with given id exist in our Employee Table it will edit it using
         // the fields provided in editEmployeeInput.
-        async editEmployee(
+        async updateEmployee(
             _,
             { editEmployeeInput: { id, name, job, department, salary } }
         ) {
