@@ -4,7 +4,9 @@ const { Employee } = require("../models/Employee");
 module.exports = {
     Query: {
         async getAllEmployees() {
-            const employee = await Employee.findAll();
+            const employee = await Employee.findAll({
+                order: [["id", "ASC"]],
+            });
             return employee;
         },
         async getEmployeeByID(_, { id }) {
