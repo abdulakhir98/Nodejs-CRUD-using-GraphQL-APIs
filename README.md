@@ -1,8 +1,28 @@
-# Nodejs-CRUD-using-GraphQL-APIs
+# Nodejs App using GraphQL APIs
 
-I have created a simple Nodejs app having GraphQL apis.
+I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server and Sequelize ORM. I used PostgresQL database for this project.
 
-It uses Apollo Server and Sequelize ORM.
+## Basic Functionalities:
+
+| Functionality | Status |
+| ---------- | --- |
+| Creates an Employee in the database | :white_check_mark: |
+| Read Employee data from the database | :white_check_mark: |
+| Update Employee data in the database | :white_check_mark: |
+| Delete an Employee from the database | :white_check_mark: |
+
+## Dependencies Used:
+
+- [apollo-server](https://www.npmjs.com/package/@apollo/server) version 3.12.0
+- [dotenv](https://www.npmjs.com/package/dotenv) version 16.0.3
+- [eslint](https://www.npmjs.com/package/eslint) version 8.41.0
+- [graphql](https://www.npmjs.com/package/graphql) version 16.6.0
+- [lodash](https://www.npmjs.com/package/lodash) version 4.17.21
+- [nodemon](https://www.npmjs.com/package/nodemon) version 2.0.22
+- [pg](https://www.npmjs.com/package/pg) version 8.11.0
+- [sequelize](https://www.npmjs.com/package/sequelize) version 6.31.1
+
+## How to run:
 
 1. Open Visual Studio Code.
 2. Open an integrated terminal from Terminal -> New Terminal.
@@ -28,7 +48,7 @@ code .
 npm install
 ```
 
-8. Create .env file in the root folder using .env.example file.
+8. Rename `.env.example` file to `.env` and provide relevant information. e.g., `DATABASE=postgres`.
 9. Finally, run the project using:
 
 ```
