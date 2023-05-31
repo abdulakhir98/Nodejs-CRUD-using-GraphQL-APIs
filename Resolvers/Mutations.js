@@ -57,7 +57,6 @@ module.exports = {
                     }
                 );
                 // This will return the updated Employee
-                //
                 return Query.getEmployeeByID(_, { id });
             } else {
                 console.log("User not found");
