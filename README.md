@@ -2,14 +2,28 @@
 
 I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server and Sequelize ORM. I used PostgresQL database for this project.
 
+<br>
+
+## Stages included in this project:
+- Created NodeJs Project
+- Added GraphQL server in project
+- Created Employee Model & Schema
+- Created set of Queries and Mutations (resolvers)
+- Connected Database to my project
+
+<br>
+
 ## Basic Functionalities:
 
 | Functionality | Status |
 | ---------- | --- |
-| Creates an Employee in the database | :white_check_mark: |
-| Read Employee data from the database | :white_check_mark: |
-| Update Employee data in the database | :white_check_mark: |
-| Delete an Employee from the database | :white_check_mark: |
+| Creates an Employee Table in the Database | :white_check_mark: |
+| Creates new Employee data/row in the Table | :white_check_mark: |
+| Read Employee data/row from the Table | :white_check_mark: |
+| Update Employee data/row in the Table | :white_check_mark: |
+| Delete an Employee data/row from the Table | :white_check_mark: |
+
+<br>
 
 ## Dependencies Used:
 
@@ -21,6 +35,8 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 - [nodemon](https://www.npmjs.com/package/nodemon) version 2.0.22
 - [pg](https://www.npmjs.com/package/pg) version 8.11.0
 - [sequelize](https://www.npmjs.com/package/sequelize) version 6.31.1
+
+<br>
 
 ## How to run:
 
