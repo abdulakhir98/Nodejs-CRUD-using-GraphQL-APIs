@@ -1,7 +1,6 @@
 # Nodejs App using GraphQL APIs
 
 I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server and Sequelize ORM. I used PostgresQL database for this project.
-
 <br>
 
 ## Stages included in this project
