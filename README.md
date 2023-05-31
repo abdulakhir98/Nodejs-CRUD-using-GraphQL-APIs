@@ -4,7 +4,7 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 
 <br>
 
-## Stages included in this project:
+## Stages included in this project
 - Created NodeJs Project
 - Added GraphQL server in project
 - Created Employee Model & Schema
@@ -13,7 +13,7 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 
 <br>
 
-## Basic Functionalities:
+## Basic Functionalities
 
 | Functionality | Status |
 | ---------- | --- |
@@ -25,7 +25,7 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 
 <br>
 
-## Dependencies Used:
+## Dependencies Used
 
 - [apollo-server](https://www.npmjs.com/package/@apollo/server) version 3.12.0
 - [dotenv](https://www.npmjs.com/package/dotenv) version 16.0.3
@@ -38,7 +38,7 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 
 <br>
 
-## How to run:
+## How to run
 
 1. Open Visual Studio Code.
 2. Open an integrated terminal from Terminal -> New Terminal.
