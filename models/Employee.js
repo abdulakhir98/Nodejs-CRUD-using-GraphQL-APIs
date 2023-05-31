@@ -42,8 +42,8 @@ const Employee = client.define(
 );
 
 // It will create the table in the database if it doesn't exist (and does nothing if it already exists).
-// Employee.sync({}).then(() => {
-//     console.log("User Model Synced!");
-// });
+Employee.sync({}).then(() => {
+    console.log("User Model Synced!");
+});
 
 module.exports = { Employee };
