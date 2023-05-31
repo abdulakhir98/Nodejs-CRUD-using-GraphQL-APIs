@@ -9,7 +9,6 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 - Created Employee Model & Schema
 - Created set of Queries and Mutations (resolvers)
 - Connected Database to my project
-
 <br>
 
 ## Basic Functionalities
@@ -21,7 +20,6 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 | Read Employee data/row from the Table | :white_check_mark: |
 | Update Employee data/row in the Table | :white_check_mark: |
 | Delete an Employee data/row from the Table | :white_check_mark: |
-
 <br>
 
 ## Dependencies Used
@@ -34,7 +32,6 @@ I have created a simple Nodejs app having GraphQL apis. It uses Apollo Server an
 - [nodemon](https://www.npmjs.com/package/nodemon) version 2.0.22
 - [pg](https://www.npmjs.com/package/pg) version 8.11.0
 - [sequelize](https://www.npmjs.com/package/sequelize) version 6.31.1
-
 <br>
 
 ## How to run
