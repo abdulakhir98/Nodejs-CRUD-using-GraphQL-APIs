@@ -31,6 +31,7 @@ module.exports = {
                 });
                 return true;
             } else {
+                console.log("User not found");
                 return false;
             }
         },
