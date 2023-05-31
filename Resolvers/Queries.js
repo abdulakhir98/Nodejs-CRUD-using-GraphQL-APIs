@@ -19,5 +19,13 @@ module.exports = {
             });
             return employee;
         },
+        async getEmployeeByDepartment(_, { department }) {
+            const employee = await Employee.findAll({
+                where: {
+                    department: department,
+                },
+            });
+            return employee;
+        },
     },
 };
